@@ -7,7 +7,7 @@ $area = $height * $width;
 // I can now make an associative array with these values
 
 $field = array("width"=> $width, "height"=> $height, "area" => $width * $height);
-echo "The width of thes object is ". $field ['width'] . "<br>";
+echo "The width of the object is ". $field ['width'] . "<br>";
 echo "The height of the object is ". $field['height']. "<br>";
 echo "The area of the object is ". $field['area']. "<br>";
 ?>
